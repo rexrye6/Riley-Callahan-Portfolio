@@ -1,0 +1,132 @@
+html{
+  height: 100%;
+  width: 100%;
+margin-right: 100px;
+margin-left: 100px;
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header {
+  background-color: maroon;
+  color: #ffffff;
+  height: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+h2 {text-decoration: underline; text-align: center;}
+
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: maroon;
+  color: white;
+
+}
+
+#wrapper {
+  background-color: #ffff80;
+   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+nav ul{
+  margin: 5px;
+  padding: 10;
+  list-style-type: none;
+ 
+}
+nav ul li{ display: inline;
+  padding: 15px;
+       
+}
+
+
+ul li a {display: inline-block;
+background-color: #808080;
+width: 100px;
+text-align: center;
+padding: 10px 10px; 
+margin: 10;
+text-decoration: none;
+color: #000000;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;      
+border-bottom-left-radius: 15px;  
+border-bottom-right-radius: 15px;
+  
+         
+}
+
+#my_picture{
+  border: 3px solid black;
+
+  
+}
+
+hr {
+clear: both;
+
+  
+}
+  
+#nav_bar {
+overflow: hidden;
+background-color: #c0c0c0;
+  position: fixed;
+  width: 100%;
+  
+top: 0;
+  
+}
+
+nav a :hover{
+color: white;
+}
+
+footer {
+
+bottom: 0;
+ background-color: maroon; 
+text-align: center;
+color: white;
+width: 100%;
+text-decoration: none;  
+padding-bottom: 20px;
+}
+
+.socialmedia a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  background-color: white;
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.center {display: block; 
+margin-right: auto;
+margin-left: auto;
+width: 25%;
+        
+        
+        }
+
+}
